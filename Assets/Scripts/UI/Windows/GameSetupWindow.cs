@@ -7,9 +7,7 @@ using Assets.Scripts.UI.Controls;
 using Assets.Scripts.UI.Windows.GameSetup;
 using Assets.Scripts.UI.WindowsManagerSystem;
 using TMPro;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
-using UnityEngine.Experimental.AI;
 using Direction = Assets.Scripts.Engine.Direction;
 
 namespace Assets.Scripts.UI.Windows

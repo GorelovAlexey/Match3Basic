@@ -2,15 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.Engine.Commands;
-using Assets.Scripts.Engine.Moves;
 using Assets.Scripts.Engine.Player;
 using Assets.Scripts.Visualizer;
 using Assets.Scripts.Visualizer.VisualCommands;
 using JetBrains.Annotations;
-using OpenCover.Framework.Model;
 using RSG;
-using UnityEngine;
-using File = System.IO.File;
 
 namespace Assets.Scripts.Engine
 {
@@ -137,6 +133,7 @@ namespace Assets.Scripts.Engine
             return needVisuals ? visual.RunAllSequence(Visuals) : Promise.Resolved();
         }
 
+        // Основной игровой цикл
         private FieldVisualCommandSequence MakeMoveInnerNew(Match3Player p, Match3CommandMove move, out Match3ReplayTurn turnReplay, [CanBeNull]Match3ReplayTurn turn = null)
         {
             var needVisuals = Visuals != null;

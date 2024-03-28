@@ -24,7 +24,7 @@ namespace Assets.Scripts.Engine
 
                 freeTurnsEnabled = true,
                 turnsPerPlayer = 1,
-                tokensForFreeTurn = 4,
+                tokensForFreeTurn = 5,
             };
         }
     }

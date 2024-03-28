@@ -1,6 +1,3 @@
-using System;
-using Assets.Scripts.Engine;
-using Microsoft.Unity.VisualStudio.Editor;
 using UniRx;
 using UnityEngine;
 using UnityEngine.EventSystems;

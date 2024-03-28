@@ -721,6 +721,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   scriptingDefineSymbols:
+    Android: RH_SerializedDictionary
     Standalone: RH_SerializedDictionary
   additionalCompilerArguments: {}
   platformArchitecture: {}

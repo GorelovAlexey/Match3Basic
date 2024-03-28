@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Diagnostics.CodeAnalysis;
-using Assets.Scripts.Engine.Moves;
-using Assets.Scripts.Visualizer;
-using System.Text.Json;
-using Assets.Scripts.Engine.Player;
 using Assets.Scripts.Visualizer.VisualCommands;
 using Newtonsoft.Json;
 
-namespace Assets.Scripts.Engine
+namespace Assets.Scripts.Engine.Moves
 {
     [Serializable]
     public class Match3MoveBasicSwap : Match3Move
