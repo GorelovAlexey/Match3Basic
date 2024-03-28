@@ -44,7 +44,7 @@ namespace Assets.Scripts.Engine.Moves
 
     public class Match3MovesJsonConverter : JsonConverter <Match3Move>
     {
-        public override void WriteJson(JsonWriter writer, Match3Move? value, JsonSerializer serializer)
+        public override void WriteJson(JsonWriter writer, [CanBeNull] Match3Move value, JsonSerializer serializer)
         {
             var token = JToken.FromObject(value);
             var ser = JsonConvert.SerializeObject(value);
@@ -55,7 +55,7 @@ namespace Assets.Scripts.Engine.Moves
             writer.WriteValue(obj.ToString());
         }
 
-        public override Match3Move? ReadJson(JsonReader reader, Type objectType, Match3Move? existingValue, bool hasExistingValue,
+        public override Match3Move ReadJson(JsonReader reader, Type objectType,[CanBeNull] Match3Move existingValue, bool hasExistingValue,
             JsonSerializer serializer)
         {
             var obj = JObject.Load(reader);
