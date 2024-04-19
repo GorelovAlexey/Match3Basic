@@ -8,6 +8,6 @@
 - Запись и воспроизведение повторов.
 - Менеджер окон с очередью окон, система окон с кастомизируемой анимацией на твинах.
 ## Скриншоты
-https://prnt.sc/MHHzu22mN3zZ
-https://prnt.sc/2beP7JaeKbiB
-https://prnt.sc/lKp6jgOywtAL
+![image](https://github.com/GorelovAlexey/Match3Basic/assets/33570758/a6df76c4-9f5a-4619-9e26-488d99bc709d)
+![image](https://github.com/GorelovAlexey/Match3Basic/assets/33570758/c0a75efb-1f1b-4d38-ae36-b25f384979b6)
+![image](https://github.com/GorelovAlexey/Match3Basic/assets/33570758/72f34496-e2e7-48af-9f27-07efb20d458a)
